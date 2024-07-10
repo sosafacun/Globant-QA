@@ -1,0 +1,4 @@
+# Created at 2023-11-14T19:36:21.344
+Boot Manifest-JAR contains absolute paths in classpath 'D:\QA+Automation\StarWarsApiTest\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

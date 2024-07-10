@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Tests" parallel="methods" thread-count="5">
+    <test name="SearchCharacterOnWikipediaTest">
+        <classes>
+            <class name="com.swapi.tests.steps.SearchCharacterSteps"/>
+        </classes>
+    </test>
+    <test name="SearchRandomMovieTest">
+        <classes>
+            <class name="com.swapi.tests.steps.SearchRandomMovieSteps"/>
+        </classes>
+    </test>
+</suite>
